@@ -1,0 +1,6 @@
+experience=int(input("Enter the experience:"))
+rating=int(input("Enter rating:"))
+if experience>=5 or rating>=8:
+    print("Employee is eligible for bonus")
+else:
+    print("employee is not eligible for bonus")    
